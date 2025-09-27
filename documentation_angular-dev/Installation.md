@@ -1,33 +1,33 @@
 ```shell
-npx create-nx-workspace@latest
-
- NX   Let's create a new workspace [https://nx.dev/getting-started/intro]
-
-✔ Where would you like to create your workspace? · angular-dev-monorepo
-✔ Which stack do you want to use? · angular
-✔ Integrated monorepo, or standalone project? · integrated
-✔ Application name · angular-dev
-✔ Which bundler would you like to use? · esbuild
-✔ Default stylesheet format · scss
-✔ Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? · No
-
-✔ Which unit test runner would you like to use? · jest
-✔ Test runner to use for end to end (E2E) tests · playwright
-✔ Which CI provider would you like to use? · github
-
- NX   Creating your v21.5.3 workspace.
-
-✔ Installing dependencies with npm
-✔ Successfully created the workspace: angular-dev-monorepo
-✔ Nx Cloud has been set up successfully
-✔ CI workflow has been generated successfully
-
- NX   Push your workspace to GitHub.
-
-Please create a repo at https://github.com/new?name=angular-dev-monorepo and push this workspace.
-
-
- NX   Your CI setup is almost complete.
-
-Push your repo, then go to Nx Cloud and finish the setup: https://cloud.nx.app/connect/jJDXnRxXex
+❯ ng new angular-dev
+✔ Which stylesheet format would you like to use? Sass (SCSS)     [
+https://sass-lang.com/documentation/syntax#scss                ]
+✔ Do you want to enable Server-Side Rendering (SSR) and Static Site Generation
+(SSG/Prerendering)? No
+✔ Do you want to create a 'zoneless' application without zone.js? Yes
+✔ Which AI tools do you want to configure with Angular best practices?
+https://angular.dev/ai/develop-with-ai None
+CREATE angular-dev/README.md (1473 bytes)
+CREATE angular-dev/.editorconfig (314 bytes)
+CREATE angular-dev/.gitignore (604 bytes)
+CREATE angular-dev/angular.json (2420 bytes)
+CREATE angular-dev/package.json (1108 bytes)
+CREATE angular-dev/tsconfig.json (992 bytes)
+CREATE angular-dev/tsconfig.app.json (429 bytes)
+CREATE angular-dev/tsconfig.spec.json (408 bytes)
+CREATE angular-dev/.vscode/extensions.json (130 bytes)
+CREATE angular-dev/.vscode/launch.json (470 bytes)
+CREATE angular-dev/.vscode/tasks.json (938 bytes)
+CREATE angular-dev/src/main.ts (222 bytes)
+CREATE angular-dev/src/index.html (296 bytes)
+CREATE angular-dev/src/styles.scss (80 bytes)
+CREATE angular-dev/src/app/app.scss (0 bytes)
+CREATE angular-dev/src/app/app.spec.ts (785 bytes)
+CREATE angular-dev/src/app/app.ts (294 bytes)
+CREATE angular-dev/src/app/app.html (20122 bytes)
+CREATE angular-dev/src/app/app.config.ts (383 bytes)
+CREATE angular-dev/src/app/app.routes.ts (77 bytes)
+CREATE angular-dev/public/favicon.ico (15086 bytes)
+✔ Packages installed successfully.
+    Successfully initialized git.
 ```
